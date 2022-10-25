@@ -1,4 +1,8 @@
-# Python Full Stack Development 
+# Python Full Stack Development
+
+
+
+# Journey
 
  - Decided to become a Full Stack Developer in 2021
  - Started as a Python Full Stack Developer Intern in 3rd January 2022 - HyperReality Technologies, Bangalore
@@ -9,4 +13,4 @@
  - Resigned that Internship due to Final Exams and Family Issues in May 
  - Finished my Masters in Computer Application in July
  - After a break, started to learn again and search for a job in late October
-# Crea
+
