@@ -17,6 +17,7 @@
  - GitLab
  - Pytest
 
+Projects are/will_be created using these mentioned technologies.
 
 ## Journey
 
