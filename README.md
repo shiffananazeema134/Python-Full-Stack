@@ -6,7 +6,16 @@
  - Python 
  - Django
  - ReactJS
- - 
+ - React Redux
+ - SQLite
+ - PostgreSQL
+ - Swagger
+ - BootStrap
+ - Material UI
+ - PostMan
+ - GitHub
+ - GitLab
+ - Pytest
 
 
 ## Journey
