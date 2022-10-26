@@ -13,18 +13,17 @@ Technologies: - [Documentation]
 7.	Django			- https://www.djangoproject.com/ - https://docs.djangoproject.com/en/4.1/intro/tutorial01/ 
 8.	ReactJS			- https://reactjs.org/ 
 9.	React Redux		- https://react-redux.js.org/ 
-10.	GitHub			- https://github.com/ 
-11.	Open API - Swagger	- https://swagger.io/ 
-12.	PostgreSQL		- https://www.postgresql.org/
-13.	SQLite			- https://www.sqlite.org/index.html 
-14.	MongoDB			- https://www.mongodb.com/
-15.	 MySQL			- https://www.mysql.com/
-16.	Postman			- https://www.postman.com/ 
-17.	Pytest			- https://docs.pytest.org/en/7.1.x/contents.html#
-18.	Bootstrap		- https://react-bootstrap.github.io/
-19.	Material UI		- https://mui.com/
-20.	DS and Algorithm	- https://www.upgrad.com/blog/data-structures-algorithm-in-python/
-
+10.	Open API - Swagger	- https://swagger.io/ 
+11.	PostgreSQL		- https://www.postgresql.org/
+12.	SQLite			- https://www.sqlite.org/index.html 
+13.	MongoDB			- https://www.mongodb.com/
+14.	 MySQL			- https://www.mysql.com/
+15.	Postman			- https://www.postman.com/ 
+16.	Pytest			- https://docs.pytest.org/en/7.1.x/contents.html#
+17.	Bootstrap		- https://react-bootstrap.github.io/
+18.	Material UI		- https://mui.com/
+19.	DS and Algorithm	- https://www.upgrad.com/blog/data-structures-algorithm-in-python/
+20.     GitHub			- https://github.com/ 
 
 
 Integrated Development Environment (IDE) – Visual Studio Code
@@ -63,8 +62,6 @@ ReactJS:
 React Redux: 
 
 
-GitHub: 
-
 
 Open API - Swagger: 
 
@@ -85,6 +82,22 @@ Postman:
 
 
 Pytest: 
+
+
+Data Structure and Algorithm:
+
+
+GitHub: 
+
+Initialize the Git 		- git init
+Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
+Select the Branch		- git branch -M main   
+Add the Changes		- git add .
+Commit the Changes	- git commit -m "NametheChange"
+Push the Changes		- git push
+Pull the Changes		- git pull
+
+
 
 ---------------------------------------------------------------------------
 
