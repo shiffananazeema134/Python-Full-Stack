@@ -1,6 +1,6 @@
  			PYTHON FULL STACK DEVELOPMENT
 									- Shiffana Nazeema A
-									         22/10/2022
+									         26/10/2022
 
 Technologies: - [Documentation]
 
@@ -89,15 +89,22 @@ Data Structure and Algorithm:
 
 GitHub: 
 
-Initialize the Git 		- git init
-Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
-Select the Branch		- git branch -M main   
-Add the Changes		- git add .
-Commit the Changes	- git commit -m "NametheChange"
-Push the Changes		- git push
-Pull the Changes		- git pull
-
-
+ 1.  Initialize the Git 		- git init
+ 2.  Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
+ 3.  Select the Branch		- git branch -M main   
+ 4.  Add the Changes		- git add .
+ 5.  Commit the Changes	- git commit -m "NametheChange"
+ 6.  Push the Changes		- git push / git push origin main
+ 7.  Pull the Changes		- git pull   / git pull origin main
+ 8.  Cloning 				- git clone link
+ 9.  Merge with branch		- git merge bname
+10. Checkout the Changes	- git checkout  / git checkout -b bname
+11. Status of the git		- git status
+12. History of Changes		- git log 
+13. Reset the Changes		- git reset / git reset <commit> / git reset --hard
+14. Differcence Changed		- git diff
+15. Fetching all the files		- git fetch / git fetch bname / git fetch --all
+  -  Exit git log			- q / z
 
 ---------------------------------------------------------------------------
 
