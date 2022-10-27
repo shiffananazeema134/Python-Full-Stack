@@ -70,22 +70,22 @@ Django:
 
 
  - Check the version of Djagno		- python -m django --version
- - Create a project				- django-admin startproject projectname
+ - Create a project			- django-admin startproject projectname
  - Run the project in server		- python manage.py runserver 
  - Create a app				- python manage.py startapp appname
- - Make Migrations for database	- python manage.py makemigrations appname
+ - Make Migrations for database		- python manage.py makemigrations appname
  - Complete the Migration		- python manage.py migrate appname 
 
 
  Files inside the Django Project:
 
  - manage.py		- command-line utility for administrative tasks
- - db.sqlite3			- database file stored in the SQLite 3 format
+ - db.sqlite3		- database file stored in the SQLite 3 format
  - __init__.py		- tells python this directory consider as a Python Package
  - settings.py		- contains all the settings and configuration 
- - urls.py			- mapping between urls and views
- - asgi.py			- entry point for ASGI-compatible web server - Asynchronous Server Gateway interface
- - wsgi.py			- entry point for WSGI-compatible web server - Web Server Gateway Interface
+ - urls.py		- mapping between urls and views
+ - asgi.py		- entry point for ASGI-compatible web server - Asynchronous Server Gateway interface
+ - wsgi.py		- entry point for WSGI-compatible web server - Web Server Gateway Interface
 
 
 --------------------------------------------------------------------
@@ -142,22 +142,22 @@ Data Structure and Algorithm:
 
 GitHub: 
 ``````
- 1.  Initialize the Git 		- git init
+ 1.  Initialize the Git 	- git init
  2.  Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
  3.  Select the Branch		- git branch -M main   
  4.  Add the Changes		- git add .
- 5.  Commit the Changes	- git commit -m "NametheChange"
+ 5.  Commit the Changes		- git commit -m "NametheChange"
  6.  Push the Changes		- git push / git push origin main
  7.  Pull the Changes		- git pull   / git pull origin main
- 8.  Cloning 				- git clone link
+ 8.  Cloning 			- git clone link
  9.  Merge with branch		- git merge bname
 10. Checkout the Changes	- git checkout  / git checkout -b bname
 11. Status of the git		- git status
 12. History of Changes		- git log 
 13. Reset the Changes		- git reset / git reset <commit> / git reset --hard
 14. Differcence Changed		- git diff
-15. Fetching all the files		- git fetch / git fetch bname / git fetch --all
-  -  Exit git log			- q / z
+15. Fetching all the files	- git fetch / git fetch bname / git fetch --all
+  -  Exit git log		- q / z
 
 
 Initialize remote-add branch, 
@@ -168,34 +168,6 @@ reset differnce fetch
 
 ---------------------------------------------------------------------------
 
-Creating an Employee Form with CRUD Operation:
-```````````````````````````````````````
-
- - Create an Virtual Environment	- python -m venv myenv
- - Activate the Virtual Environment	- myenv\Scripts\activate
- - Create Django Project			- django-admin startproject EmployeeAPI
- - Run the Project in server		- python manage.py runserver
- - Set the Cors Headers			- In the Settings (Middleware,Installed)
- - Create Django App			- python manage.py startapp EmployeeApp
- - Register the App 			- In the Settings (Installed) - 'EmployeeApp.apps.EmployeeappConfig'
- - Start the Code 				- In the models.py
- - Make Migrations for database	- python manage.py makemigrations EmployeeApp
- - Complete the Migration		- python manage.py migrate EmployeeApp   
- - SQLite Studio				- Add and Check the Database  
- - Create Serializers			- In the App - serializers.py
- - Code					- In the views.py
- - Create URLS				- urls.py in the EmployeeApp
- - Create React				- npx create-react-app employee_react
- 
-
-Technologies Used:
-```````````````
- - Python
- - Django
- - PostMan
- - SQLite
- - ReactJS
- - ReactBootstrap
 
 ---------------------------------------------------------------------------
 
