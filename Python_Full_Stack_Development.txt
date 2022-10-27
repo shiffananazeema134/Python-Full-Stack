@@ -31,64 +31,117 @@ Integrated Development Environment (IDE) – Visual Studio Code
 
 GitHub – https://github.com/shiffananazeema/Python_Full_Stack 
 
+-------------------------------------------------------------------
 
 HTML: 
-	- Hyper Text Markable Language – Tim Berners-Lee in 1993 at CERN, Switzerland.
+`````
+ - Hyper Text Markable Language – Tim Berners-Lee in 1993 at CERN, Switzerland.
 
   Tags - Enclosed in angle Brackets.  <h1> </h1>
   Attributes - Additional information placed inside. <img src=”mycat.jpg”>
 
-CSS: 
 
+--------------------------------------------------------------------
+
+CSS: 
+````
+
+--------------------------------------------------------------------
 
 JavaScript: 
 
+--------------------------------------------------------------------
 
 Python: 
 
+--------------------------------------------------------------------
 
 Flask: 
 
+--------------------------------------------------------------------
 
 SQL Alchemy: 
 
+--------------------------------------------------------------------
 
 Django: 
+``````
+ - Back-End Server side web framework - Adrian and Simon in 2003 at Lawrence Journal-World
 
+
+ - Check the version of Djagno		- python -m django --version
+ - Create a project				- django-admin startproject projectname
+ - Run the project in server		- python manage.py runserver 
+ - Create a app				- python manage.py startapp appname
+ - Make Migrations for database	- python manage.py makemigrations appname
+ - Complete the Migration		- python manage.py migrate appname 
+
+
+ Files inside the Django Project:
+
+ - manage.py		- command-line utility for administrative tasks
+ - db.sqlite3			- database file stored in the SQLite 3 format
+ - __init__.py		- tells python this directory consider as a Python Package
+ - settings.py		- contains all the settings and configuration 
+ - urls.py			- mapping between urls and views
+ - asgi.py			- entry point for ASGI-compatible web server - Asynchronous Server Gateway interface
+ - wsgi.py			- entry point for WSGI-compatible web server - Web Server Gateway Interface
+
+
+--------------------------------------------------------------------
 
 ReactJS: 
+``````
+ - JavaScript library for building user interfaces - Jordan Walke in 2013 at Facebook
 
+ - Create a App		- npx create-react-app my-app
+ - Run the App		- npm start
+
+ - package.json		- Store the list of dependency packages
+ - package-lock.json 	- 
+--------------------------------------------------------------------
 
 React Redux: 
 
-
+--------------------------------------------------------------------
 
 Open API - Swagger: 
 
+--------------------------------------------------------------------
 
 PostgreSQL: 
 
+--------------------------------------------------------------------
 
 SQLite: 
+``````
+ - SQL database engine - Richard Hipp in 2000 at United States
+ - 
 
+--------------------------------------------------------------------
 
 MongoDB: 
 
+--------------------------------------------------------------------
 
 MySQL: 
 
+--------------------------------------------------------------------
 
 Postman: 
 
+--------------------------------------------------------------------
 
 Pytest: 
 
+--------------------------------------------------------------------
 
 Data Structure and Algorithm:
 
+--------------------------------------------------------------------
 
 GitHub: 
-
+``````
  1.  Initialize the Git 		- git init
  2.  Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
  3.  Select the Branch		- git branch -M main   
@@ -105,6 +158,44 @@ GitHub:
 14. Differcence Changed		- git diff
 15. Fetching all the files		- git fetch / git fetch bname / git fetch --all
   -  Exit git log			- q / z
+
+
+Initialize remote-add branch, 
+add commit push pull, 
+clone merge, 
+checkout status log,
+reset differnce fetch
+
+---------------------------------------------------------------------------
+
+Creating an Employee Form with CRUD Operation:
+```````````````````````````````````````
+
+ - Create an Virtual Environment	- python -m venv myenv
+ - Activate the Virtual Environment	- myenv\Scripts\activate
+ - Create Django Project			- django-admin startproject EmployeeAPI
+ - Run the Project in server		- python manage.py runserver
+ - Set the Cors Headers			- In the Settings (Middleware,Installed)
+ - Create Django App			- python manage.py startapp EmployeeApp
+ - Register the App 			- In the Settings (Installed) - 'EmployeeApp.apps.EmployeeappConfig'
+ - Start the Code 				- In the models.py
+ - Make Migrations for database	- python manage.py makemigrations EmployeeApp
+ - Complete the Migration		- python manage.py migrate EmployeeApp   
+ - SQLite Studio				- Add and Check the Database  
+ - Create Serializers			- In the App - serializers.py
+ - Code					- In the views.py
+ - Create URLS				- urls.py in the EmployeeApp
+ - Create React				- npx create-react-app employee_react
+ 
+
+Technologies Used:
+```````````````
+ - Python
+ - Django
+ - PostMan
+ - SQLite
+ - ReactJS
+ - ReactBootstrap
 
 ---------------------------------------------------------------------------
 
