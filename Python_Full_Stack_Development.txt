@@ -1,7 +1,7 @@
- 			PYTHON FULL STACK DEVELOPMENT
+ 			
+			PYTHON FULL STACK DEVELOPMENT
 									- Shiffana Nazeema A
 									         26/10/2022
-
 Technologies: - [Documentation]
 
 1.	HTML      		- https://html.com/ 
@@ -53,7 +53,20 @@ JavaScript:
 --------------------------------------------------------------------
 
 Python: 
+```````
+ - Popular Programming Language - Guido van Rossum in 1991 at CWI in the Netherlands
 
+Variable - Cotainers for storing data values. 
+
+Reserved words or Keywords:
+```````````````````````````
+False		await		else		import		pass
+None		break	   	except		in		raise
+True		class	   	finally		is		return
+and 		continue   	for		lambda		try
+as 		def 	   	from		nonlocal	while
+assert		del   	   	global		not		with
+async		elif	   	if		or		yield
 --------------------------------------------------------------------
 
 Flask: 
