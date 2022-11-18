@@ -71,40 +71,105 @@ Variable   Literal
 
 Data Types
 ``````````
-Text Type	:	str
 Numeric Types	:	int, float, complex
+Text Type	:	str
+Boolean Type	:	bool
 Sequence Types	:	list, tuple, range
 Mapping Type	:	dict
 Set Types	: 	set, frozenset
-Boolean Type	:	bool
 Binary Types	:	bytes, bytearray, memoryview
 None Type	:	NoneType
 
 Eg:
 ```
-x = "Hello"				- String  
 x = 1					- Integer 
 x = 2.8					- Float	  
 x = 1j					- Complex 
+x = "Hello"				- String  
+x = True				- Boolean	
 x = ["apple","banana", "cherry"]	- List
 x = ("apple", "banana", "cherry")	- Tuple
 x = range(6)				- Range
 x = {"name" : "John", "age" : 36}	- Dictionary
 x = {"apple", "banana", "cherry"}	- Set
 x = frozenset({"apple", "banana"})	- Frozenset
-x = True				- Boolean
 x = b"Hello"				- Bytes
 x = bytearray(5)			- ByteArray
 x = memoryview(bytes(5))		- MemoryView
 x = None				- NoneType
 
-Data Type:		Type Casting:
+
+Data Type:		Type Casting:	- Changing the type of data
 ``````````		`````````````
 print(type(x))		x = int("3")		
 
+
 String:
 ```````
+ - Should be in ' '  or " "
+ 
+ Length 	- len(a)
+ Check  	- "Worth" in me 	- True
+ 		- "Quit" not in me 	- True
+ Slice  	- a[2:1]/[2:]/[:2]/[-1:]
+ Upper  	- a.upper()
+ Lower  	- a.lower()
+ Remove Space	- a.strip()
+ Replace	- a.replace("F","S")
+ Split		- a.split(",")
+ Capitalize	- a.capitalize()
+ Format		- a.format(done) - {}	- Add integer in string 
+ Escape String 	- \
+ 		- \' , \\ , \n, \t 
+		
+		
+Collection Data Types - List , Tuple , Set , Dictionary
 
+Accessing	- txt[1]/txt[2:5]
+Checking	- if "apple" in txt:
+Changing	- txt[1] = "banana"
+Inserting	- txt.insert(3, "orange")	- inserted at the mentiond index
+Append		- txt.append("cherry")		- inserted at the end
+Extend		- txt.extend(list)		- adding two list
+Remove		- txt.remove("banana")		- removing by item
+Pop		- txt.pop(1)/()			- removing by index / last item
+Deleting	- del txt[1]			- remove by index
+		- del txt			- remove the entire list
+Clear		- txt.clear()			- empty the list
+Sorting		- txt.sort()			- ascending order
+		- txt.reverse()			- decending order
+		
+
+List:
+`````
+	- Used to store multiple items in a single variable
+	- Ordered , Changable , Allow Duplicate values.
+	- Can contain different Data Types
+
+Operators:
+``````````
+	- used to perform operations on variables and values
+
+ Arithmetic Operator	- Numeric values to perform common Mathematical Operations
+ 			- + , - , * , / , % , ** , // 
+			
+ Assignment Operator	- Assign values to Variables 
+ 			- = , += , -=, *= , /=, %=, **=, //= , &= , |= , ^= , >>= , <<= 
+ 
+ Comparison Operator	- Compare two values
+ 			- == , != , > , < , >= , <=
+			
+ Logical Operator	- Combine Conditional Statements
+ 			- and , or , not 
+			
+ Identity Operator	- Compare the objects
+ 			-  is , is not
+			
+ Membership Operator	- Test is a sequence is present
+ 			- in , not in
+			
+ Bitwise Operator	- Compare Binary Numbers
+ 			- & , | , ^ , ~ , << , >>
 
 Reserved words or Keywords:
 ```````````````````````````
