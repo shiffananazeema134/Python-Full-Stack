@@ -127,8 +127,10 @@ Collection Data Types - List , Tuple , Set , Dictionary
 
 Accessing	- txt[1]/txt[2:5]
 Checking	- if "apple" in txt:
-Changing	- txt[1] = "banana"
-Inserting	- txt.insert(3, "orange")	- inserted at the mentiond index
+Length		- len(txt)			- length of the list
+Counting	- txt.count(apple)		- count the mentioned item in the list
+Changing	- txt[1] = "banana"		- changing the item
+Inserting	- txt.insert(3, "orange")	- inserted at the mentioned index
 Append		- txt.append("cherry")		- inserted at the end
 Extend		- txt.extend(list)		- adding two list
 Remove		- txt.remove("banana")		- removing by item
