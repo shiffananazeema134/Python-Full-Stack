@@ -15,6 +15,8 @@
  - Code					                      - In the views.py
  - Create URLS				                - urls.py in the EmployeeApp
  - Create React				                - npx create-react-app employee_react
+ - Start React                              - npm start
+ - Get ReactBootstrap
  
 
 ## Technologies Used:
@@ -24,3 +26,14 @@
  - SQLite
  - ReactJS
  - ReactBootstrap
+
+ Object-Oriented Programming (OOPS)
+
+Principles of OOPS:
+Class                      -  collection of objects
+Object                    -  entity that has state and behavior
+Method                  -  functions defined inside a class
+Inheritance            -  creating new class from existing class    - Person -> child, friend, student
+Polymorphism      -  perform a single action in different ways  - Duck -> fly, walk, swim
+Encapsulation      -  restrict access to some objects  -  public, private, protected 
+Abstraction           -  only showing relevant data          - car starts by key, no need to know h

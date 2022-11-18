@@ -1,25 +1,70 @@
 # Python Programming
 
 """
-1. Pyramid Program
-2. Ramdom Password Generate
-3. Reverse
-4. Palindrome
-5. Swap the Value
-6. Display Calender
-7. Odd or Even
-8. Fizz Buzz
+1. One line Programs
+2. Pyramid Program
+3. Ramdom Password Generate
+4. Reverse
+5. Palindrome
+6. Swap the Value
+7. Display Calender
+8. Odd or Even
+9. Fizz Buzz
 
+"""
+# 1 - One Line Programs
+"""
+
+1. Swap two variables
+	
+a, b = b, a
+
+
+2. List Comprehension
+	
+squares = [i*i for i in range(10) if i % 2 == 0]
+
+
+3. If-Else Ternary Operator
+	
+var = 42 if 3>2 else 99
+	
+ 
+4. Print without new line
+    
+data = [0, 1, 2, 3, 4, 5]
+print(*data)
+    
+    
+5. Days left in Year
+    
+import datetime;
+print((datetime.date(2022,12,31)-datetime.date.today()).days)
+
+
+6. Reversing or Palindrom
+
+a = "level"
+a = a[::-1]
+print(a == a[::-1])
+
+
+7. Multiple Variables Assigning
+
+name, age, language = "Shiffana", 23, "Python"
+
+
+8. 
 """
 
 
-# 1 - Star/Pyramid Program
+# 2 - Star/Pyramid Program
 """
 for i in range(1,10):
     print("* " * i)
 """
 
-# 2 - Random Password Generate
+# 3 - Random Password Generate
 '''
 import random
 lower="abcdefghijklmnopqrstuvwxyz"pyt
@@ -33,7 +78,7 @@ password= "".join(random.sample(all,length))
 print("Password: "+password)
 '''
 
-#3 - Reverse
+#4 - Reverse
 '''
 a = 'Shiffana Nazeema A'
 rev = "".join(reversed(a))
@@ -46,7 +91,7 @@ rev = "".join(reversed(a))
 print(rev)
 '''
 
-#4 - Palindrome
+#5 - Palindrome
 '''
 a = 'madam'
 rev = "".join(reversed(a))
@@ -65,7 +110,7 @@ else:
     print("{0} is not a Palindrome".format(a))
 '''
 
-# 5 - Swap the Values
+# 6 - Swap the Values
 '''
 a = input('Please enter value for A:')
 b = input('Please enter value for B:')
@@ -76,7 +121,7 @@ print("The Value of A after Swapping: ",a)
 print("The Value of B after Swapping: ",b)
 '''
 
-# 6 - Display Calender
+# 7 - Display Calender
 '''
 import calendar
 yy = int(input('Enter Year: '))
@@ -84,7 +129,7 @@ mm = int(input('Enter Month: '))
 print(calendar.month(yy, mm))
 '''
 
-#7 - Odd or Even
+#8 - Odd or Even
 '''
 num = int(input("Enter a number: "))  
 if (num % 2) == 0:  
@@ -93,7 +138,7 @@ else:
    print("{0} is Odd number".format(num))  
 '''
 
-#8 - Fizz Buzz
+#9 - Fizz Buzz
 '''
 import math
 import os
@@ -121,7 +166,9 @@ if __name__ == '__main__':
 
 # -
 '''
-
+squares = [i*i for i in range(10) if i % 2 == 0]
+print(squares)
+[0, 4, 16, 36, 64]
 '''
 
 # -

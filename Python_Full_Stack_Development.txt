@@ -97,8 +97,16 @@ ReactJS:
  - Create a App		- npx create-react-app my-app
  - Run the App		- npm start
 
+ - node_modules		- Where all the packages get installed 
+ - index.html - public	- Final file that gets rendered
+ - App.css 	    - src	- Style the React App
+ - App.js 	    - src	- Container for all component
+ - App.test.js   - src	- Mounts a component and make sure it didn't throw during rendering
+ - index.css	    - src	- Defines the order of overlapping html elements
+ - index.js        - src	- Group all imports to a single 
  - package.json		- Store the list of dependency packages
- - package-lock.json 	- 
+ - package-lock.json 	- Locks the dependency with the installed version
+
 --------------------------------------------------------------------
 
 React Redux: 
