@@ -105,6 +105,7 @@ print(type(x))		x = int("3")
 String:
 ```````
 
+
 Reserved words or Keywords:
 ```````````````````````````
  - Keywords have special meanings to the compiler. There are 35 keywords.
