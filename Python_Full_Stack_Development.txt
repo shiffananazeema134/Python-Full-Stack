@@ -1,7 +1,7 @@
- 			PYTHON FULL STACK DEVELOPMENT
+ 			
+			PYTHON FULL STACK DEVELOPMENT
 									- Shiffana Nazeema A
 									         26/10/2022
-
 Technologies: - [Documentation]
 
 1.	HTML      		- https://html.com/ 
@@ -53,7 +53,98 @@ JavaScript:
 --------------------------------------------------------------------
 
 Python: 
+```````
+ - Popular Programming Language - Guido van Rossum in 1991 at CWI in the Netherlands
 
+
+Variable
+`````````
+ Cotainers for storing data values. 
+ Literals - Raw data assigned to a Variable or Constant
+	
+	- Python is case sensitive. Eg: y and Y are Different
+
+  name  = "Shiffana" 
+   |	      |
+Variable   Literal
+
+
+Data Types
+``````````
+Text Type	:	str
+Numeric Types	:	int, float, complex
+Sequence Types	:	list, tuple, range
+Mapping Type	:	dict
+Set Types	: 	set, frozenset
+Boolean Type	:	bool
+Binary Types	:	bytes, bytearray, memoryview
+None Type	:	NoneType
+
+Eg:
+```
+x = "Hello"				- String  
+x = 1					- Integer 
+x = 2.8					- Float	  
+x = 1j					- Complex 
+x = ["apple","banana", "cherry"]	- List
+x = ("apple", "banana", "cherry")	- Tuple
+x = range(6)				- Range
+x = {"name" : "John", "age" : 36}	- Dictionary
+x = {"apple", "banana", "cherry"}	- Set
+x = frozenset({"apple", "banana"})	- Frozenset
+x = True				- Boolean
+x = b"Hello"				- Bytes
+x = bytearray(5)			- ByteArray
+x = memoryview(bytes(5))		- MemoryView
+x = None				- NoneType
+
+Data Type:		Type Casting:
+``````````		`````````````
+print(type(x))		x = int("3")		
+
+String:
+```````
+
+
+Reserved words or Keywords:
+```````````````````````````
+ - Keywords have special meanings to the compiler. There are 35 keywords.
+ 
+False		await		else		import		pass
+None		break	   	except		in		raise
+True		class	   	finally		is		return
+and 		continue   	for		lambda		try
+as 		def 	   	from		nonlocal	while
+assert		del   	   	global		not		with
+async		elif	   	if		or		yield
+
+Value Keywords		- 	True, False, None
+Operator Keywords	- 	and, or, not, in, is
+Control Flow Keywords	- 	if, elif, else
+Iteration Keywords	- 	for, while, break, continue
+Structure Keywords	- 	def, class, with, pass, lambda
+Returning Keywords	-	return, yield
+Import Keywords		- 	import, from, as
+Exception-Handling Keywords -	try, except, raise, finally, assert
+Asynchronous Keywords	    - 	async, await
+Variable Handling Keywords  - 	del, global, nonlocal
+
+True, False - Boolean value
+ Eg:
+    x = True			y = False
+    x is True			y is not True
+    # True			# True
+    
+None - Represents no Value
+ Eg:
+    def func():				- can't print the call 
+    	print("hello")			- can't print the print
+    x = func()
+    # hello
+    print(x)			
+    # None
+    
+  
 --------------------------------------------------------------------
 
 Flask: 
