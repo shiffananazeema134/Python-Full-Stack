@@ -40,7 +40,18 @@ HTML:
   Tags - Enclosed in angle Brackets.  <h1> </h1>
   Attributes - Additional information placed inside. <img src=”mycat.jpg”>
 
-
+Emmet in Visual Studio Code
+```````````````````````````
+!		- Basic html page
+ctrl+g		- To go to the line using number
+tag.classname#idname	- nav.today.afternoon
+tag		- opens the tag
+.		- class
+#		- id 
+ctrl+enter 	- new line
+header+article>ul>li*5>lorem
++		- sibling
+>		- child
 --------------------------------------------------------------------
 
 CSS: 
