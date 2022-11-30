@@ -108,16 +108,16 @@ Forms
 <button>		- Button
 Emmet in Visual Studio Code
 ```````````````````````````
-!		- Basic html page
-ctrl+g		- To go to the line using number
+!			- Basic html page
+ctrl+g			- To go to the line using number
 tag.classname#idname	- nav.today.afternoon
-tag		- opens the tag
-.		- class
-#		- id 
-ctrl+enter 	- new line
+tag			- opens the tag
+.			- class
+#			- id 
+ctrl+enter 		- new line
 header+article>ul>li*5>lorem
-+		- sibling
->		- child
++			- sibling
+>			- child
 --------------------------------------------------------------------
 
 CSS: 
@@ -306,8 +306,8 @@ Django:
 
  - Check the version of Djagno		- python -m django --version
  - Create a project			- django-admin startproject projectname
- - Run the project in server		- python manage.py runserver 
- - Create a app				- python manage.py startapp appname
+ - Create a app				- django-admin startapp appname
+ - Run the project in server		- python manage.py runserver
  - Make Migrations for database		- python manage.py makemigrations appname
  - Complete the Migration		- python manage.py migrate appname 
 
@@ -334,11 +334,11 @@ ReactJS:
 
  - node_modules		- Where all the packages get installed 
  - index.html - public	- Final file that gets rendered
- - App.css 	    - src	- Style the React App
- - App.js 	    - src	- Container for all component
- - App.test.js   - src	- Mounts a component and make sure it didn't throw during rendering
- - index.css	    - src	- Defines the order of overlapping html elements
- - index.js        - src	- Group all imports to a single 
+ - App.css 	    	- src	- Style the React App
+ - App.js 	    	- src	- Container for all component
+ - App.test.js   	- src	- Mounts a component and make sure it didn't throw during rendering
+ - index.css	    	- src	- Defines the order of overlapping html elements
+ - index.js        	- src	- Group all imports to a single 
  - package.json		- Store the list of dependency packages
  - package-lock.json 	- Locks the dependency with the installed version
 
@@ -365,6 +365,8 @@ SQLite:
 
 MongoDB: 
 ````````
+MongoDB is an open source NoSQL database.
+It is more advanced and capable of handling big data with dynamic schema features.
  - Create Cluster using username and password
  - Connect > MongoDB Compass > Copy the URL
  - Open MongoDB Compass App
