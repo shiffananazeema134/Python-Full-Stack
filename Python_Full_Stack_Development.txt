@@ -106,6 +106,7 @@ Forms
 <option>		- Drop-down options
 <textarea>		- Large text input
 <button>		- Button
+
 Emmet in Visual Studio Code
 ```````````````````````````
 !			- Basic html page
@@ -126,6 +127,8 @@ CSS:
 --------------------------------------------------------------------
 
 JavaScript: 
+```````````
+
 
 --------------------------------------------------------------------
 
@@ -201,6 +204,11 @@ String:
 		
 		
 Collection Data Types - List , Tuple , Set , Dictionary
+List [] - Ordered , Changeable , Allow Duplicate values.
+Tuple() - Ordered , Unchangeable , Allow Duplicate values.
+Dict {} - Unordered , Changable , Doesn't Allow Duplicate values , Key - Value pairs.
+Set  {}	- Unordered , Changebale - set, Unchangable - frozenset , Doesn't Allow Duplicate values. 
+
 
 Accessing	- txt[1]/txt[2:5]
 Checking	- if "apple" in txt:
@@ -218,12 +226,6 @@ Clear		- txt.clear()			- empty the list
 Sorting		- txt.sort()			- ascending order
 		- txt.reverse()			- decending order
 		
-
-List:
-`````
-	- Used to store multiple items in a single variable
-	- Ordered , Changable , Allow Duplicate values.
-	- Can contain different Data Types
 
 Operators:
 ``````````
@@ -249,6 +251,8 @@ Operators:
 			
  Bitwise Operator	- Compare Binary Numbers
  			- & , | , ^ , ~ , << , >>
+			
+
 
 Reserved words or Keywords:
 ```````````````````````````
@@ -292,10 +296,12 @@ None - Represents no Value
 --------------------------------------------------------------------
 
 Flask: 
+``````
 
 --------------------------------------------------------------------
 
 SQL Alchemy: 
+````````````
 
 --------------------------------------------------------------------
 
@@ -326,7 +332,7 @@ Django:
 --------------------------------------------------------------------
 
 ReactJS: 
-``````
+````````
  - JavaScript library for building user interfaces - Jordan Walke in 2013 at Facebook
 
  - Create a App		- npx create-react-app my-app
@@ -345,14 +351,17 @@ ReactJS:
 --------------------------------------------------------------------
 
 React Redux: 
+````````````
 
 --------------------------------------------------------------------
 
 Open API - Swagger: 
+```````````````````
 
 --------------------------------------------------------------------
 
 PostgreSQL: 
+```````````
 
 --------------------------------------------------------------------
 
@@ -375,18 +384,22 @@ It is more advanced and capable of handling big data with dynamic schema feature
 --------------------------------------------------------------------
 
 MySQL: 
+``````
 
 --------------------------------------------------------------------
 
 Postman: 
+````````
 
 --------------------------------------------------------------------
 
 Pytest: 
+```````
 
 --------------------------------------------------------------------
 
 Data Structure and Algorithm:
+`````````````````````````````
 
 --------------------------------------------------------------------
 
