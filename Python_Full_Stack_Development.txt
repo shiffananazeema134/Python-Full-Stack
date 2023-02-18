@@ -316,6 +316,7 @@ Django:
  - Run the project in server		- python manage.py runserver
  - Make Migrations for database		- python manage.py makemigrations appname
  - Complete the Migration		- python manage.py migrate appname 
+ - Create the Super User		- python manage.py createsuperuser
 
 
  Files inside the Django Project:
@@ -407,7 +408,7 @@ GitHub:
 ``````
  1.  Initialize the Git 	- git init
  2.  Select the Repository 	- git remote add origin https://github.com/shiffananazeema/Python_Full_Stack.git
- 3.  Set different url      - git remote set-url origin https://github.com/shiffananazeema/Python-Full-Stack.git
+ 3.  Set different url      	- git remote set-url origin https://github.com/shiffananazeema/Python-Full-Stack.git
  4.  Select the Branch		- git branch -M main   
  5.  Add the Changes		- git add .
  6.  Commit the Changes		- git commit -m "NametheChange"
