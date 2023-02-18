@@ -317,7 +317,8 @@ Django:
  - Make Migrations for database		- python manage.py makemigrations appname
  - Complete the Migration		- python manage.py migrate appname 
  - Create the Super User		- python manage.py createsuperuser
-
+ - Remove all the data 			- python manage.py flush
+ - Create token				- python manage.py drf_create_token admin
 
  Files inside the Django Project:
 
