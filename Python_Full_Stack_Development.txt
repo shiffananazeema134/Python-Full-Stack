@@ -151,6 +151,38 @@ Variable   Literal
 
 Data Types
 ``````````
+In Python, there are several built-in data types that you can use to store different kinds of data. 
+Here is a comprehensive list of all the data types in Python:
+
+Numeric Types:
+int (integer)
+float (floating-point number)
+complex (complex number)
+
+Sequence Types:
+list (mutable ordered sequence of elements)
+tuple (immutable ordered sequence of elements)
+range (immutable sequence of numbers)
+
+Text Type:
+str (string of characters)
+
+Mapping Type:
+dict (mutable collection of key-value pairs)
+
+Set Types:
+set (mutable collection of unique elements)
+frozenset (immutable collection of unique elements)
+
+Boolean Type:
+bool (boolean value True or False)
+
+Binary Types:
+bytes (immutable sequence of bytes)
+bytearray (mutable sequence of bytes)
+memoryview (memory view of a bytes object)
+
+
 Numeric Types	:	int, float, complex
 Text Type	:	str
 Boolean Type	:	bool
