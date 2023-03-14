@@ -29,5 +29,5 @@ Projects are/will_be created using these mentioned technologies.
  - Worked in a Enterprise Training Product Project using Python, Django, ReactJS, React Redux, MaterialUI, Swagger, PostgreSQL, PostMan, GitLab, GitHub till May 
  - Resigned that Internship due to Final Exams and Family Issues in May 
  - Finished my Masters in Computer Application in July
- - After a break, started to learn again and search for a job in late October
+ - After a break, started to learn again and search for a job
 
