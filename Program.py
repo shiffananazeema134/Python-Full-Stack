@@ -10,6 +10,7 @@
 7. Display Calender
 8. Odd or Even
 9. Fizz Buzz
+10. Fibonacci Series
 
 """
 # 1 - One Line Programs
@@ -164,7 +165,14 @@ if __name__ == '__main__':
     fizzBuzz(n)
 '''
 
-# -
+#10 - Fibonacci Series
+'''
+a, b = 0, 1
+while a < 50:
+    print(a)
+    a, b = b, a + b
+'''
+
 '''
 squares = [i*i for i in range(10) if i % 2 == 0]
 print(squares)
