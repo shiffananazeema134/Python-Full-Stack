@@ -5,6 +5,7 @@
  - JavaScript
  - Python 
  - Django
+ - Django Rest Framework
  - ReactJS
  - React Redux
  - SQLite
