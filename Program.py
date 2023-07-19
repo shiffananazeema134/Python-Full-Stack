@@ -11,6 +11,7 @@
 8. Odd or Even
 9. Fizz Buzz
 10. Fibonacci Series
+11. Prime Number
 
 """
 # 1 - One Line Programs
@@ -50,8 +51,7 @@ print((datetime.date(2022,12,31)-datetime.date.today()).days)
 6. Reversing or Palindrom
 
 a = "level"
-a = a[::-1]
-print(a == a[::-1])
+print(a[::-1])
 
 
 7. Multiple Variables Assigning
@@ -177,7 +177,20 @@ while a < 50:
     a, b = b, a + b
 '''
 
-#11 - Second Last
+#11 - Prime Number 
+'''
+num = int(input())
+ 
+for i in range(2, num):
+    if num % i  == 0:
+        print("No")
+        break
+    else:
+        print("Yes")
+'''
+
+
+Second Last
 '''
 if __name__ == '__main__':
     records = {}
